@@ -11,7 +11,6 @@ function busquedalineal(a) {
     return a
 }
 
-<<<<<<< HEAD
 let p = busquedalineal([1,2,3,4,5]);
 console.log(p)
 
@@ -45,24 +44,3 @@ function particion(a, b){
 }
 
 console.log(particion([1,2,3,4,5,6,7,8,9,10], 9));
-=======
-function binario(a, b){
-    for (let i = a.length/2; i <= a.length;) {
-        if (a[i] == b){
-            return true;
-        }
-        else if (b < a[i]){
-            i--
-        }
-        else if (b > a[i]){
-            i++
-        }
-        else {
-            
-            return false
-        }
-    }
-}
-
-console.log(binario([1,2,3,4], 2))
->>>>>>> bdc09a49e0682031c727a53b6ffce7e9cd2a3012
