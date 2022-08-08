@@ -12,4 +12,4 @@ function busquedalineal(a) {
 }
 
 let p = busquedalineal([1, 6, 9, 2]);
-console.log(p)
+console.log(p) 
