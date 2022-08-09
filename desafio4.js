@@ -28,4 +28,3 @@ function burbuja(a){
 
 let p = burbuja([10,2,0,-1,7])
 console.log(p);
-//-1,0,2,7,10
