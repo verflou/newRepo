@@ -43,4 +43,5 @@ function particion(a, b){
     }
 }
 
-console.log(particion([1,2,3,4,5,6,7,8,9,10], 9));
+ar = [1,2,3,4,5,6,7,8,9,10];
+console.log(particion(busquedalineal(ar), 12));
